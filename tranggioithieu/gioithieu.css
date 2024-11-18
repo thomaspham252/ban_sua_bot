@@ -1,0 +1,153 @@
+/* Cài đặt cơ bản */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #ff6600;
+    padding: 20px 0;
+    color: white;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main layout: Bố cục chính */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    gap: 20px; /* Khoảng cách giữa các phần */
+}
+/* Bên trái: Nội dung chính và Tin liên quan */
+.left-section {
+    width: 70%; /* Bên trái chiếm 70% chiều rộng */
+    display: flex;
+    flex-direction: column; /* Sắp xếp các phần tử theo cột */
+    gap: 20px; /* Khoảng cách giữa các phần */
+}
+/* Nội dung chính */
+.content {
+    padding: 20px;
+}
+
+.content img.logo {
+    max-width: 200px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    color: #333;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content ul li {
+    margin: 10px 0;
+}
+
+.related {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.related h3 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.related ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.related ul li {
+    margin: 10px 0;
+}
+
+.related ul li a {
+    color: #ff6600;
+    text-decoration: none;
+}
+.right-section {
+    width: 30%; /* Bên phải chiếm 30% chiều rộng */
+}
+.sidebar {
+    width: 30%;
+    padding: 20px;
+}
+
+.ads img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
